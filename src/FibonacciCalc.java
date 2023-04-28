@@ -13,19 +13,19 @@ public class FibonacciCalc {
         System.out.println(num2);
         for (int i=1; i< counter; i++) {
             nextNum = num1.add(num2); // 0+1 = 1
-            num1 = num2; // update num1 to the next number in the sequece
-            num2 = nextNum; // update num2 to the new value that we get previously
+            num1 = num2; // update num1 to the next number in the sequence
+            num2 = nextNum;
             System.out.println(nextNum);
         }
-
     }
 
-    // main method
-    public static void main(String[] args) {
-        fibonacci(100); // 0 1 1 2 3
+            // main method
+            public static void main(String[] args) {
+                fibonacci(100); // 0 1 1 2 3
+            }
 
-    }
 }
-// your turn : print the first 10 fibonacci series
-// your turn : print the first 50 fibonacci series- HINT: use long dataType
-// extension : print the first 100 fibonacci series- HINT : use BigInteger class
+
+        // your turn : print the first 10 fibonacci series
+        // your turn : print the first 50 fibonacci series- HINT: use long dataType
+        // extension : print the first 100 fibonacci series- HINT : use BigInteger class
